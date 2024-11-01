@@ -1,10 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it as below. This package modifies the original eribean/RyStats. Please also cite that package."
 authors:
-- family-names: "Sanchez"
-  given-names: "Ryan"
-  orcid: "https://orcid.org/0000-0003-0931-5335"
-title: "RyStats: Statistical Analysis"
-version: 0.5.0
-date-released: 2021-10-29
-url: "https://github.com/eribean/RyStats"
+- family-names: "Averill"
+  given-names: "Christopher L."
+  orcid: "https://orcid.org/0000-0001-7575-6142"
+title: "Modified RyStats: Statistical Analysis"
+version: 0.1.0
+date-released: 2024-11-01
+url: "https://github.com/tekgy/RyStats"
+references:
+  - authors:
+      - family-names: Sanchez
+        given-names: "Ryan C."
+        orcid: "https://orcid.org/0000-0003-0931-5335"
+  title: "RyStats: Statistical Analysis"
+  type: software
+  version: 0.5.0
+  date-released: 2021-10-29
+  url: "https://github.com/eribean/RyStats"
