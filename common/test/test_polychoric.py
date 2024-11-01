@@ -4,7 +4,7 @@ import unittest
 
 import numpy as np
 
-from scipy.stats import mvn
+from scipy.stats import multivariate_normal as mvn
 
 from RyStats.common import contingency_table, validate_contingency_table
 from RyStats.common import polychoric_correlation, polychoric_correlation_serial

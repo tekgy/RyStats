@@ -6,7 +6,7 @@ from itertools import product, repeat
 import numpy as np
 from scipy.optimize import optimize
 from scipy.special import erfinv
-from scipy.stats import mvn
+from scipy.stats import multivariate_normal as mvn
 
 
 __all__ = ["validate_contingency_table", "contingency_table", 
